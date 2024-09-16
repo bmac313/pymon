@@ -1,0 +1,229 @@
+{
+	"NORMAL": {
+		"abbreviation": "NRM",
+		"half_effective_on": ["ROC"],
+		"super_effective_on": [],
+		"no_effect_on": ["GST"]
+		"trainer_class": {
+			"male": ["Idol"],
+			"female": ["Idol"],
+			"nb": ["Idol"],
+			"agender": ["Idol"]
+		}
+	},
+	"FIGHTING": {
+		"abbreviation": "FIT",
+		"half_effective_on": ["PSN", "FLY", "PSY" "BUG", "FRY"],
+		"super_effective_on": ["NRM", "ICE", "ROC", "DRK", "STL"]
+		"no_effect_on": ["GST"]
+		"trainer_class": {
+			"male": ["Roughneck", "Black Belt", "Sailor", "Expert"] ,
+			"female": ["Battle Girl", "Crush Girl", "Sailor", "Expert"] ,
+			"nb": ,
+			"agender":
+		}
+	},
+}	"FIRE": {
+		"abbreviation": "FIR",
+		"half_effective_on": ["FIR", "WTR", "ROC", "DRG"],
+		"super_effective_on": ["GRS", "ICE", "BUG", "STL"],
+		"no_effect_on": []
+		"trainer_class": {
+			"male": [],
+			"female": [],
+			"nb": [],
+			"agender": []
+		}
+	},
+	"WATER": {
+		"abbreviation": "WTR",
+		"half_effective_on": ["WTR", "GRS", "DRG"],
+		"super_effective_on": ["FIR", "GRN", "ROC"],
+		"no_effect_on": []
+		"trainer_class": {
+			"male": [],
+			"female": [],
+			"nb": [],
+			"agender": []
+		}
+	},
+	"GRASS": {
+		"abbreviation": "GRS",
+		"half_effective_on": ["FIR", "GRS", "PSN", "FLY", "BUG", "DRG", "STL"],
+		"super_effective_on": ["WTR", "GRN", "ROC"],
+		"no_effect_on": []
+		"trainer_class": {
+			"male": [],
+			"female": [],
+			"nb": [],
+			"agender": []
+		}
+	},
+	"ELECTRIC": {
+		"abbreviation": "ELE",
+		"half_effective_on": ["GRS", "ELE", "DRG"],
+		"super_effective_on": ["WTR", "FLY"],
+		"no_effect_on": ["GRN"]
+		"trainer_class": {
+			"male": [],
+			"female": [],
+			"nb": [],
+			"agender": []
+		}
+	},
+	"ICE": {
+		"abbreviation": "ICE",
+		"half_effective_on": ["FIR", "WTR", "ICE", "STL"],
+		"super_effective_on": ["GRS", "GRN", "FLY", "DRG"],
+		"no_effect_on": []
+		"trainer_class": {
+			"male": [],
+			"female": [],
+			"nb": [],
+			"agender": []
+		}
+	},
+	"POISON": {
+		"abbreviation": "PSN",
+		"half_effective_on": ["PSN", "GRN", "ROC", "GST"],
+		"super_effective_on": ["GRS", "FRY"],
+		"no_effect_on": ["STL"]
+		"trainer_class": {
+			"male": [],
+			"female": [],
+			"nb": [],
+			"agender": []
+		}
+	},
+	"GROUND": {
+		"abbreviation": "GRN",
+		"half_effective_on": ["GRS", "BUG"],
+		"super_effective_on": ["FIR", "ELE", "PSN", "ROC", "STL"],
+		"no_effect_on": ["FLY"]
+		"trainer_class": {
+			"male": [],
+			"female": [],
+			"nb": [],
+			"agender": []
+		}
+	},
+	"FLYING": {
+		"abbreviation": "FLY",
+		"half_effective_on": ["ELE", "ROC", "STL"],
+		"super_effective_on": ["GRS", "FIT", "BUG"],
+		"no_effect_on": []
+		"trainer_class": {
+			"male": [],
+			"female": [],
+			"nb": [],
+			"agender": []
+		}
+	},
+	"PSYCHIC": {
+		"abbreviation": "PSY",
+		"half_effective_on": ["PSY", "STL"],
+		"super_effective_on": ["FIT", "PSN"],
+		"no_effect_on": ["DRK"]
+		"trainer_class": {
+			"male": [],
+			"female": [],
+			"nb": [],
+			"agender": []
+		}
+	},
+	"BUG": {
+		"abbreviation": "BUG",
+		"half_effective_on": ["FIR", "ICE", "FIT", "PSN", "FLY", "GST", "STL", "FRY"],
+		"super_effective_on": ["GRS", "PSY", "DRK"],
+		"no_effect_on": []
+		"trainer_class": {
+			"male": [],
+			"female": [],
+			"nb": [],
+			"agender": []
+		}
+	},
+	"ROCK": {
+		"abbreviation": "ROC",
+		"half_effective_on": ["FIT", "GRN", "STL"],
+		"super_effective_on": ["FIR", "ICE", "FLY", "BUG", "DRK"],
+		"no_effect_on": []
+		"trainer_class": {
+			"male": [],
+			"female": [],
+			"nb": [],
+			"agender": []
+		}
+	},
+	"GHOST": {
+		"abbreviation": "GST",
+		"half_effective_on": ["DRK"],
+		"super_effective_on": ["PSY", "GST"],
+		"no_effect_on": ["NRM"]
+		"trainer_class": {
+			"male": [],
+			"female": [],
+			"nb": [],
+			"agender": []
+		}
+	},
+	"DRAGON": {
+		"abbreviation": "DRG",
+		"half_effective_on": ["STL"],
+		"super_effective_on": ["DRG"],
+		"no_effect_on": ["FRY"]
+		"trainer_class": {
+			"male": [],
+			"female": [],
+			"nb": [],
+			"agender": []
+		}
+	},
+	"DARK": {
+		"abbreviation": "DRK",
+		"half_effective_on": ["FIT", "DRK", "FRY"],
+		"super_effective_on": ["PSY", "GST"],
+		"no_effect_on": []
+		"trainer_class": {
+			"male": [],
+			"female": [],
+			"nb": [],
+			"agender": []
+		}
+	},
+	"STEEL": {
+		"abbreviation": "STL",
+		"half_effective_on": ["FIR", "WTR", "ELE", "STL"],
+		"super_effective_on": ["ICE", "ROC", "FRY"],
+		"no_effect_on": []
+		"trainer_class": {
+			"male": [],
+			"female": [],
+			"nb": [],
+			"agender": []
+		}
+	},
+	"FAIRY": {
+		"abbreviation": "FRY",
+		"half_effective_on": ["FIR", "PSN", "STL"],
+		"super_effective_on": ["FIT", "DRG", "DRK"],
+		"no_effect_on": []
+		"trainer_class": {
+			"male": [],
+			"female": [],
+			"nb": [],
+			"agender": []
+		}
+	},
+	"ASTRAL": {
+		"abbreviation": "AST",
+		"half_effective_on": [],
+		"super_effective_on": [],
+		"no_effect_on": []
+		"trainer_class": {
+			"male": [],
+			"female": [],
+			"nb": [],
+			"agender": []
+		}
+	},
