@@ -1,0 +1,16 @@
+{
+	"BULBASAUR": {
+		"id": 1,
+		"name": "Bulbasaur",
+		"epithet": "Seed Pokemon",
+		"types": ["GRS", "PSN"],
+		"moves_default": ["tackle", "growl"],
+		"percent_male": 0.875,
+		"percent_female": 0.125,
+		"catch_rate": 0.119,
+		"height": 28,
+		"weight": 15.2,
+		"xp_yield": 64,
+		"level_rate": "med_slow"
+	}
+}
