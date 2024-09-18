@@ -1,7 +1,7 @@
 import json
-from models import character
+from src.models import character
 
-with open('game_data/creature_dex.json') as f:
+with open('json/creature_dex.json') as f:
 	dex = json.load(f).get("BULBASAUR")
 	gender_ratio_m = dex.get("percent_male")
 	gender_ratio_f = dex.get("percent_female")
